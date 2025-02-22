@@ -1,0 +1,97 @@
+/* body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+} */
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+/* / header section / */
+.header {
+   
+    position: relative;
+    width:98%;
+    padding: 10px;
+    height: 8vh;
+    background-color: black;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 20px; /* Moves cart logo to the right */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FF9D23;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-logo {
+    width: 60px;  /*Adjust size as needed */
+    height: 50px;
+ margin-left: 10px;
+
+}
+
+/* / amazon logo / */
+.amazom-image{
+    width: 120px;
+    height: 60px;
+    float: left;
+}
+
+
+/* / product list container / */
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    background-color: rgba(234, 227, 227, 0.8);
+    gap: 10px;
+    margin-left: 5vw;
+}
+
+.product-contain{
+    /* / flex: 0 0 auto;    / */
+    width: 200px; 
+    height: 300px; 
+    background-color: #946565;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    gap: 20px;
+}
+
+/* / images / */
+.prodct-image{
+    height: 150px;
+    width: 100%;
+    padding: 2px;
+}
+
+.offcanvas {
+    background-color: #f8f9fa;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}

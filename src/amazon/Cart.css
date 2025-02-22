@@ -1,0 +1,41 @@
+/* .cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cart-logo{
+    width: 4vw;
+    height: 6vh;
+    margin: 10px 22px 15px 5px;
+    float: right;
+
+} */
+
+.cart {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-logo {
+    width: 40px;
+    height: 40px;
+    margin: 20px 8px 10px 5px;
+    float: right;
+}
+
+
+.cart-count {
+    position: absolute;
+    top: 2px;
+    right: 18px;
+    background-color: rgb(223, 97, 14);
+    color: white; /* Set text color to white */
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+}

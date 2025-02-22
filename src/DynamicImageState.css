@@ -1,0 +1,23 @@
+.main-contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+
+.fruit-image{
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    border: 1px solid black;
+}
+
+.select-fruit{
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+}

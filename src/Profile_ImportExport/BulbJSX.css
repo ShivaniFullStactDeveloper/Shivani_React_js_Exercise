@@ -1,0 +1,35 @@
+.main-div{
+    height: 40vw;
+    width: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgray;
+    border: 1px black solid;
+    color: black;
+
+}
+
+
+.button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    gap: 40px;
+}
+
+.button{
+    height: 40px;
+    width: 200px;
+    background-color: lightslategray;
+    font-size: 24px;
+}
+
+.bub-img{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+}

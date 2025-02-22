@@ -1,0 +1,10 @@
+.coin-panel{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(161, 159, 159);
+    border-radius: 15px;
+}
