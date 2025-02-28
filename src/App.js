@@ -1,17 +1,11 @@
-import React from 'react';
-import HomePage from './HomePage';
+import HomePage from './home_page/HomePage'
 
-
-class App extends React.Component {
- 
-render(){
+function App() {
   return (
-    <>
-    <HomePage/>
-    </>
- 
+    <div>
+      <HomePage/>
+    </div>
   );
-}
 }
 
 export default App;

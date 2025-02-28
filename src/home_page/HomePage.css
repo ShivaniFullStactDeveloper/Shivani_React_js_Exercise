@@ -1,0 +1,62 @@
+/* Container styling */
+.container {
+    width: 100vw;
+    max-height: 100%;
+    margin: auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    /* background-color: rgb(56, 56, 56); */
+    
+  }
+  
+  /* Project list section */
+  .project-container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 15px; /* Spacing between items */
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  /* Individual project box */
+  .project {
+    padding: 15px 15px;
+    background-color: #ff7d00;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    font-weight: bold;
+    min-width: 120px;
+  }
+  
+  .project:hover {
+    background-color: white;
+    
+  }
+  
+  .project h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  /* Selected project display */
+  .sec-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+  }
+  
+  .sec-container h2 {
+    margin-bottom: 15px;
+    /* color: #333; */
+  }
+  
+ 
