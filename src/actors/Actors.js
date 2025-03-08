@@ -58,7 +58,7 @@ class Actors extends React.Component {
       },
       {
         name: "Rohit Saraf",
-        image: "https://upload.wikimedia.org/wikipedia/commons/1/15/Rohit_Saraf_at_the_OTTPlay_Change_Makers_Awards_2023_%28cropped%29.jpg ",
+        image: "https://upload.wikimedia.org/wikipedia/commons/1/15/Rohit_Saraf_at_the_OTTPlay_Change_Makers_Awards_2023_%28cropped%29.jpg",
         movies: [
           "Ludo (2020) – IMDb Rating: 7.6",
           "Dear Zindagi (2016) – IMDb Rating: 7.4",
@@ -74,7 +74,7 @@ class Actors extends React.Component {
       },
       {
         name: "Aditya Roy Kapoor",
-        image: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgOLyXn2vRw3fFDDk3cvJr95rf2re_nlm6-g&s",
+        image: "https://st1.bollywoodlife.com/wp-content/uploads/2014/07/aditya-roy-kapur-080713.jpg?impolicy=Medium_Widthonly&w=412&h=290",
         movies: [
         "  Ludo (2020) – IMDb Rating: 7.6",
          " Guzaarish (2010) – IMDb Rating: 7.4",
@@ -137,6 +137,40 @@ class Actors extends React.Component {
         "  Student of the Year (2012) – IMDb Rating: 6.7",
           
         ] ,
+      },
+      {
+        name: "Katrina Kaif", 
+        image: "https://i.pinimg.com/564x/d2/3b/48/d23b48e920128cc975ced9593e4eb2a3.jpg",
+        movies: [
+         "Shershaah (2021) – IMDb Rating: 8.3",
+        "  Satyaprem Ki Katha (2023) – IMDb Rating: 6.8",
+          "Good Newwz(2019) – IMDb Rating: 6.8",
+       "   Kabir Singh (2019) – IMDb Rating: 7.0",
+         " Jug Jugg Jeeyo (2022) – IMDb Rating: 6.1",
+         "Guilty (2020) – IMDb Rating: 5.4",
+          "Bhool Bhulaiyaa 2 (2022) – IMDb Rating: 5.2",
+          "Bharath Ane Nenu (2018) – IMDb Rating: 7.1",
+        '  Govinda Naam Mera (2016) – IMDb Rating: 6.5',
+         " M.S. Dhoni: The Untold Story (2016) – IMDb Rating: 8.0",
+          
+        ],
+      },
+      {
+        name: "deepika padukone",
+        image: "https://static.toiimg.com/photo/107164007/107164007.jpg",
+        movies: [
+         "Shershaah (2021) – IMDb Rating: 8.3",
+        "  Satyaprem Ki Katha (2023) – IMDb Rating: 6.8",
+          "Good Newwz(2019) – IMDb Rating: 6.8",
+       "   Kabir Singh (2019) – IMDb Rating: 7.0",
+         " Jug Jugg Jeeyo (2022) – IMDb Rating: 6.1",
+         "Guilty (2020) – IMDb Rating: 5.4",
+          "Bhool Bhulaiyaa 2 (2022) – IMDb Rating: 5.2",
+          "Bharath Ane Nenu (2018) – IMDb Rating: 7.1",
+        '  Govinda Naam Mera (2016) – IMDb Rating: 6.5',
+         " M.S. Dhoni: The Untold Story (2016) – IMDb Rating: 8.0",
+          
+        ],
       }
        
     ];
@@ -152,7 +186,7 @@ const ActorApp = ({ actors }) => {
 
   return (
     <div className="app-container">
-      <h1>  8 Famous Indian Actors</h1>
+      <h1>  10 Famous Indian Actors</h1>
       <div
         className="actor-grid"
         style={{

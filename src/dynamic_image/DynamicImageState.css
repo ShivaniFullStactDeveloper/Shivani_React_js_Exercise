@@ -1,23 +1,73 @@
-.main-contain{
+/* Main Container */
+.main-contain {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
-    height: 100vh;
-    background-color: lightgray;
+    width: 100%;
+    /* max-width: 60vw; */
+    min-height: 60vh;
+    background: linear-gradient(135deg, #f7f7f7, #dcdcdc);
+    border-radius: 15px;
+    border: 2px solid #444;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
 }
 
-
-.fruit-image{
-    width: 250px;
-    height: 250px;
-    margin: 30px;
-    border: 1px solid black;
+/* Image Styling */
+.fruit-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.select-fruit{
-    width: 150px;
-    height: 40px;
-    font-size: 24px;
+/* Hover Effect for Image */
+.fruit-image:hover {
+    transform: scale(1.05);
+}
+
+/* Dropdown Styling */
+.select-fruit {
+    width: 180px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #333;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effect for Select */
+.select-fruit:hover {
+    background-color: #f0f0f0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .main-contain {
+        width: 95%;
+    }
+    .select-fruit {
+        width: 150px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .select-fruit {
+        width: 130px;
+        font-size: 14px;
+    }
 }

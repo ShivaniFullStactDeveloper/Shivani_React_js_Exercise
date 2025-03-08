@@ -43,6 +43,8 @@ export default class HomePage extends React.Component {
   render(){
     return(
       <div className="container">
+        <button className="git-but"><a>GitHub</a></button>
+        <h1 className="pro-style">projects</h1>
         {/* project section */}
         <div className="project-container">
           { this.projects.map((project, index) =>(

@@ -1,34 +1,102 @@
-
-.coin-card{
+/* Coin Card - Modern & Responsive */
+.coin-card {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: white;
+    flex-direction: column; /* Stack content vertically */
     align-items: center;
     justify-content: center;
-    height: 25vh;
-    width: 10vw;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10%;
-    border: 1px solid black;
+    background-color: white;
+    height: 180px;
+    width: 140px;
+    margin: 12px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid black;
     cursor: pointer;
     text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* coin-image */
+/* Hover effect for the coin card */
+.coin-card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Coin Image Styling */
 .coin-image {
     height: 80px;
     width: 80px;
-    
-}
-text{
-    font-size: 15px;
-    font-weight: bold;
-    margin: 5px;
-  
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
 }
 
-.count{
+/* Slight bounce effect on hover */
+.coin-card:hover .coin-image {
+    transform: scale(1.1);
+}
+
+/* Coin Text Styling */
+.coin-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Count Styling */
+.count {
     color: rgb(94, 95, 95);
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .coin-card {
+        width: 130px;
+        height: 170px;
+    }
+    .coin-image {
+        height: 75px;
+        width: 75px;
+    }
+    .coin-text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .coin-card {
+        width: 110px;
+        height: 150px;
+        padding: 10px;
+    }
+    .coin-image {
+        height: 65px;
+        width: 65px;
+    }
+    .coin-text {
+        font-size: 13px;
+    }
+    .count {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .coin-card {
+        width: 90px;
+        height: 130px;
+        padding: 8px;
+    }
+    .coin-image {
+        height: 55px;
+        width: 55px;
+    }
+    .coin-text {
+        font-size: 12px;
+    }
+    .count {
+        font-size: 11px;
+    }
 }

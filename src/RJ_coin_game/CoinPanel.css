@@ -1,4 +1,4 @@
-.coin-panel{
+/* .coin-panel{
     width: 60vw;
     height: 50vh;
     display: flex;
@@ -7,4 +7,37 @@
     align-items: center;
     background-color: rgb(161, 159, 159);
     border-radius: 15px;
+} */
+
+.coin-panel {
+    max-width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Ensures wrapping for small screens */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(161, 159, 159);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .coin-panel {
+        width: 95vw;
+        min-height: 40vh;
+        padding: 15px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .coin-panel {
+        width: 100vw;
+        min-height: auto;
+        padding: 10px;
+        border-radius: 10px;
+    }
 }

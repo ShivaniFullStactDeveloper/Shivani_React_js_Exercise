@@ -1,6 +1,6 @@
 
 /* General Card Styling */
-.panel-container {
+.pane-container {
    
     display: flex;
     flex-direction: row;
@@ -37,7 +37,7 @@
     margin: 0 0 10px;
   }
   
-  /* .movie-rating {
+  .movie-rating {
     font-size: 14px;
     color: #111;
   }
@@ -45,7 +45,7 @@
   .rating {
     font-weight: bold;
   }
-   */
+  
   /* Rate Link */
   .rate-link {
     color: #1f78d1;

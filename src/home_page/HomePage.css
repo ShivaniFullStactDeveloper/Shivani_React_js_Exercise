@@ -33,7 +33,7 @@
   }
   
   .project:hover {
-    background-color: white;
+    background-color: rgb(138, 137, 137);
     
   }
   
@@ -59,4 +59,28 @@
     /* color: #333; */
   }
   
+  .pro-style {
+    margin: 1px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 3px 5px #ff7d00;
+
+}
+
+
+.git-but:hover {
+  color: black;
+  background-color: #ff7d00;
+  box-shadow: 0 0 20px #ff7d00;
+  transition: all .3s ease-in-out;
+}
  
+.git-but{
+  background-color: #ff7d00;
+  height: 5vh;
+  width: 8vw;
+  border-radius: 10px;
+  border: solid 1px #ff7d00;
+  font-weight: bold;
+  font-size: 15px;
+}

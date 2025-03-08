@@ -10,6 +10,7 @@ export default class IMDB extends React.Component {
         this.state = {
 
             formShow: false,  //control which panel is show
+
             movieArray: [],
 
         };
@@ -35,7 +36,7 @@ export default class IMDB extends React.Component {
                 {this.state.formShow ?(
                      <MovieForm addMovieList={this.addMovieList} />
                     ) : (
-                     <IMDbPanel movieArray={this.state.movieArray} openForm={this.openForm} startShow={this.state.startShow}/>
+                     <IMDbPanel movieArray={this.state.movieArray} openForm={this.openForm}/>
                     )}
             </div>
         )

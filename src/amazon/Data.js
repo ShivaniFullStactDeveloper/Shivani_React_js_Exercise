@@ -76,5 +76,18 @@ export const product = [
       price: "6,255",
       image: "https://m.media-amazon.com/images/I/710YVc9mZ1L._AC_UY218_.jpg",
       description: "CORSAIR CX Series CX750 80 Plus Bronze ATX",
-    }
+    },
+    {
+      name: "Desktop Processor 24 Core",
+      price: "50,299",
+      image: "https://itprice.in/wp-content/uploads/2024/04/61GbKtxb57L._SX569_.jpg",
+      description: "Intel Core I9-14900K",
+    },
+    {
+      name: "Internal SSD",
+      price: "10,499",
+      image: "https://gamesncomps.com/wp-content/uploads/2021/01/814KAQVF6YL._SL1500_-1.jpg",
+      description: "Basssy 2TB 2.5-Inch SATA Internal SSD"
+    },
+
   ];

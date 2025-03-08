@@ -11,13 +11,13 @@ class Header extends React.Component {
             {/* amazon logo */}
             <img className='amazon-logo' src={amazonLogo}/>
             {/* search bar */}
-            {/* <div className="search-bar"> */}
+            <div className="search-bar">
                    <input type="text" className="input" placeholder="Search for products" />
                     {/* <button className="search-btn">🔍</button> */}
-                {/* </div> */}
+                </div>
             <Cart cartItems={this.props.cartArray} toggleCart={this.props.toggleCart} />
         </div>
-        <h1 style={{textAlign:"center"}}>CPU Component</h1>
+        <h1 className="page-title" style={{textAlign:"center"}}>CPU Component</h1>
         </header>
     );
 };

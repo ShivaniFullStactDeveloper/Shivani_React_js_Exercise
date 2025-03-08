@@ -1,21 +1,9 @@
 import React from "react";
 import './IMDbPanel.css'
 import MovieForm from "../movies_add/MovieForm";
-import RatingButton from '../movies_add/RatingButton';
-import ShowStar from "../movies_add/ShowStart";
 
 export default class IMDbPanel extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            showStar: false,
-        }
-    }
 
-    switchPanelStar=()=>{
-        this.setState({showStar: !this.state.showStar})
-    }
-    
 
 
     render() {
@@ -25,7 +13,7 @@ export default class IMDbPanel extends React.Component {
                     <p>No movies added yet. Click "Add Movie" to get started.</p>
                 ) : (
                     this.props.movieArray.map((movie, index) => (
-                        <div class="panel-container" key={index}>
+                        <div class="pane-container" key={index}>
                             <img
                                 src={movie.movieImage}
                                 alt={movie.movieName}
@@ -39,15 +27,11 @@ export default class IMDbPanel extends React.Component {
                                 {/* duration */}
                                 <p className="movie-info">{movie.movieDuration} hour</p>
                                 <div className="movie-rating">
-                                    {/* ⭐ <span className="rating">9.3</span> (3M) · <a href="#" class="rate-link">Rate</a> */}
-                                    <RatingButton  onClick={this.state.switchPanelStar}/>
+                                    ⭐ <span className="rating">9.3</span> (3M) · <a href="#" class="rate-link">Rate</a>
                                 </div>
                             </div>
-                            {/* <button className="info-btn">ℹ️</button> */}
-                            <div><ShowStar switchPanelStar={this.switchPanelStar}/></div>
-
+                            <button className="info-btn">ℹ️</button>
                         </div>
-
                     ))
                 )}
             </div>

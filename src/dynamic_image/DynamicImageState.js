@@ -35,7 +35,7 @@ export default class DynamicImageState extends React.Component {
     render() {
         return (
             <div className="main-contain">
-                <h1 style={{color:"black"}}>Select a fruit</h1>
+                <h1 style={{color:"black"}}>Pick a Fruit 🍎🍌🍊</h1>
                 <select className="select-fruit" value={this.state.fruit} onChange={this.handleFruitChange}>
                     <option value="apple">Apple</option>
                     <option value="banana">Banana</option>
